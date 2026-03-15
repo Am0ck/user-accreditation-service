@@ -12,12 +12,16 @@ A REST API for managing the lifecycle of investor accreditation verification. Us
 - **JUnit 5 + MockMvc** (testing)
 
 ---
-
 ## How to Run
+### Prerequisites
 
+- Java 17 installed and available on `PATH`
+- A Unix-like shell (`bash`/`sh`)
+- Internet access on first run so the Maven Wrapper can download dependencies
 ### Quick start (Linux)
-(Tested in Git Bash on Windows)
+
 ```bash
+chmod +x mvnw run.sh
 ./run.sh
 ```
 This builds the JAR (skipping tests) and starts the service.
