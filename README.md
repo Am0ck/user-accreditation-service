@@ -132,10 +132,7 @@ Returns an empty `accreditation_statuses` map if the user has no accreditations.
 
 ### Accreditation Types
 
-| Value          | Description                        |
-|----------------|------------------------------------|
-| `BY_INCOME`    | Income exceeds $200K ($300K joint) |
-| `BY_NET_WORTH` | Net worth exceeds $1M              |
+`BY_INCOME` · `BY_NET_WORTH`
 
 ---
 
@@ -168,7 +165,7 @@ Invalid enum values return the accepted options:
 {
   "status": 400,
   "error": "Bad Request",
-  "message": "Invalid value for field accreditationType"
+  "message": "Invalid value for field...."
 }
 ```
 
